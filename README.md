@@ -7,7 +7,7 @@ You can get a sample image URL with the appropriate size you need.
 
 ### Installing
 
-```javascript
+```bash
 npm install -g image-sampler
 ```
 
@@ -17,7 +17,7 @@ npm install -g image-sampler
 
 You can get small, medium, large size sample image url with the predefined option.
 
-```
+```bash
 // small size (400x300)
 image-sampler -s
 image-sampler -small
@@ -35,7 +35,7 @@ image-sampler -large
 
 You can get custom sized image with `-c` or `-custom` option
 
-```
+```bash
 image-sampler -c 300x400
 image-sampler -custom 300x400
 ```
