@@ -13,8 +13,7 @@
   "author": "shinyouwith",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "commander": "^2.20.0",
-    "inquirer": "^6.4.1"
+    "chalk": "2.4.2",
+    "commander": "2.20.0"
   }
 }
