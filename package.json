@@ -1,0 +1,11 @@
+{
+  "name": "sample-image-cli",
+  "version": "1.0.0",
+  "description": "get sample image url with options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shinyouwith",
+  "license": "MIT"
+}
