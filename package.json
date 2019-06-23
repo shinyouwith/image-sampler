@@ -11,6 +11,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shinyouwith",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinyouwith/image-sampler"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "2.4.2",
