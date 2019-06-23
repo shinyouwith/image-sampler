@@ -1,5 +1,5 @@
 {
-  "name": "sample-image-cli",
+  "name": "image-sampler-cli",
   "version": "1.0.0",
   "description": "get sample image url with size options",
   "main": "app.js",

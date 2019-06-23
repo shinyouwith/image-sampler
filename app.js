@@ -1,7 +1,7 @@
 const commander = require("commander");
 const chalk = require("chalk");
 
-exports.imageSampler = (function() {
+exports.imageSampler = function() {
     commander
         .option("-s, --small [small]", "small size image (400x300)")
         .option("-m, --medium [medium]", "medium size image (800x600)")
@@ -33,4 +33,4 @@ exports.imageSampler = (function() {
             }
         })
         .parse(process.argv);
-})();
+};
