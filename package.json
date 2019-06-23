@@ -1,11 +1,20 @@
 {
   "name": "sample-image-cli",
   "version": "1.0.0",
-  "description": "get sample image url with options",
-  "main": "index.js",
+  "description": "get sample image url with size options",
+  "main": "app.js",
+  "bin": {
+    "image-sampler": "bin/sampler.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shinyouwith",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "inquirer": "^6.4.1"
+  }
 }
